@@ -43,5 +43,17 @@
   },
   "author": "MichaelCurrin",
   "license": "MIT",
-  "homepage": "https://michaelcurrin.github.io/react-quickstart/"
+  "homepage": "https://michaelcurrin.github.io/react-quickstart/",
+  "description": "> Starter template for a React app - including docs, CI, and hosting",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camgrafiman/superheroes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/camgrafiman/superheroes/issues"
+  }
 }

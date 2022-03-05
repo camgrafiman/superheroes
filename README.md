@@ -1,4 +1,5 @@
-# React Quickstart ⚛️ 📦
+# Superheroes APP ⚛️ 📦
+
 > Starter template for a React app - including docs, CI, and hosting
 
 [![GH Pages Deploy](https://github.com/MichaelCurrin/react-quickstart/workflows/GH%20Pages%20Deploy/badge.svg)](https://github.com/MichaelCurrin/react-quickstart/actions?query=workflow:"GH+Pages+Deploy")
@@ -8,7 +9,6 @@
 [![Made with Node](https://img.shields.io/badge/Node.js->=10-blue?logo=node.js&logoColor=white)](https://nodejs.org)
 [![Made with Yarn](https://img.shields.io/badge/Yarn->=1-blue?logo=yarn&logoColor=white)](https://classic.yarnpkg.com)
 [![Made with React](https://img.shields.io/github/package-json/dependency-version/MichaelCurrin/react-quickstart/react?logo=react)](https://www.npmjs.com/package/react)
-
 
 <div align="center">
     <a href="https://michaelcurrin.github.io/react-quickstart/" title="Go to demo app">
@@ -22,7 +22,6 @@
             width="80" height="80" />
     </a>
 </div>
-
 
 ## Preview
 
@@ -39,7 +38,6 @@
 
 </div>
 
-
 ## Create a new React app
 
 Use this project as a template:
@@ -52,7 +50,6 @@ Use this project as a template:
 
 If you need something more minimal, see this [Minimal](https://michaelcurrin.github.io/code-cookbook/recipes/javascript/packages/react/minimal.html) app recipe.
 
-
 ## Documentation
 
 To install, run and deploy the app, see this project's docs:
@@ -64,7 +61,6 @@ To install, run and deploy the app, see this project's docs:
 </div>
 
 To learn how to use this project and see how a React project works, see the [Template notes](/docs/template-notes/) section of the docs.
-
 
 ## License
 
