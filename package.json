@@ -1,0 +1,47 @@
+{
+  "name": "react-quickstart",
+  "version": "1.4.0",
+  "scripts": {
+    "fmt:check": "npx prettier --single-quote -c src",
+    "fmt:fix": "npx prettier --single-quote -w src",
+    "test": "react-scripts test",
+    "test:all": "react-scripts test --watchAll=false",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "preversion": "git fetch --tags && yarn test-all",
+    "version": "yarn build",
+    "postversion": "git push --follow-tags"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^4.0.3",
+    "web-vitals": "^1.1.1"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "author": "MichaelCurrin",
+  "license": "MIT",
+  "homepage": "https://michaelcurrin.github.io/react-quickstart/"
+}
