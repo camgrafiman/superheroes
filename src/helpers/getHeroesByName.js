@@ -1,5 +1,6 @@
 import { heroes } from "../data/heroes";
 export const getHeroesByName = (name = "") => {
+  console.log("getHeroesByName function fired.");
   name = name.toLowerCase();
 
   if (name === "") {

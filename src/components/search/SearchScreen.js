@@ -1,4 +1,4 @@
-import React from "react";
+import { useMemo } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import queryString from "query-string";
 
@@ -11,14 +11,15 @@ export const SearchScreen = () => {
   const location = useLocation();
 
   const { q = "" } = queryString.parse(location.search);
-  console.log(location);
+  // console.log(location);
 
   let initialForm = {
     searchText: q,
   };
   const [formValues, handleInputChange] = useForm(initialForm);
 
-  const heroesFiltrados = getHeroesByName(q);
+  const heroesFiltrados = useMemo(() => getHeroesByName(q), [q]);
+  // const heroesFiltrados = getHeroesByName(formValues.searchText);
 
   const handleSearch = (e) => {
     e.preventDefault();
