@@ -13,8 +13,11 @@
     "postversion": "git push --follow-tags"
   },
   "dependencies": {
+    "animate.css": "^4.1.1",
+    "query-string": "^7.1.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-router-dom": "^6.2.2",
     "react-scripts": "^4.0.3",
     "web-vitals": "^1.1.1"
   },
@@ -41,9 +44,9 @@
       "last 1 safari version"
     ]
   },
-  "author": "MichaelCurrin",
+  "author": "Alejandro Gallego",
   "license": "MIT",
-  "homepage": "https://michaelcurrin.github.io/react-quickstart/",
+  "homepage": "https://camaleongrafico.com/",
   "description": "> Starter template for a React app - including docs, CI, and hosting",
   "main": "index.js",
   "directories": {
