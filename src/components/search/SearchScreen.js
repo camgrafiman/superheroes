@@ -33,7 +33,7 @@ export const SearchScreen = () => {
       <hr />
       <div className="row">
         <div className="col-5">
-          <h4>Buscar</h4>
+          <h4>Buscar: </h4>
           <hr />
           <form onSubmit={handleSearch}>
             <input
