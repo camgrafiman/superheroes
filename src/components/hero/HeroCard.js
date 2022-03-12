@@ -10,9 +10,9 @@ export const HeroCard = ({
 }) => {
   const imagePath = process.env.PUBLIC_URL + `/images/heroes/${id}.jpg`;
   return (
-    <div className="col animate__animated animate__fadeIn">
+    <div className="col-sm-12 animate__animated animate__fadeIn">
       <Link to={`/hero/${id}`}>
-        <div className="card">
+        <div className="card mt-2">
           <div className="row no-gutters">
             <div className="col-4">
               <img src={imagePath} className="img-fluid" alt={superhero} />
